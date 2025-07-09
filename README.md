@@ -121,9 +121,3 @@ shopping.sql       # Database schema and sample data
 
 - To change database credentials, edit the `connect()` method in `Database.java`.
 - To add new categories, insert them directly into the `categories` table in MySQL.
-
----
-
-## License
-
-This project is open-source and free to use for educational and personal purposes.
