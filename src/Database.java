@@ -22,7 +22,6 @@ public class Database {
     }
 
     private int getID(String categoryName) {
-
         try {
             String sql = "SELECT Id_category from categories where Name = ?";
             PreparedStatement preparedStatement = connection.prepareStatement(sql);
